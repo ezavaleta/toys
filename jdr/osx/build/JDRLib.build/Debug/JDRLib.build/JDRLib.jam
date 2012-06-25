@@ -1,0 +1,104 @@
+# Jamfile for configuration Debug of target "JDRLib" of project "JDRLib"
+
+
+JAVAC_SOURCE_FILE_ENCODING default = MacRoman ;
+
+# Implicitly computed project-wide settings for project "JDRLib"
+export deferred ANTICIPATED_BUILT_PRODUCTS_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred ANTICIPATED_TARGET_BUILD_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred BUILD_STYLE = "$(CONFIGURATION)" ;
+export deferred CONFIGURATION = Debug ;
+export deferred CONFIGURATION_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION) ;
+export deferred CONFIGURATION_TEMP_DIR = $(PROJECT_TEMP_DIR)/$(CONFIGURATION) ;
+export deferred DEVELOPMENT_LANGUAGE = English ;
+export deferred GROUP = eddy ;
+export deferred PROJECT = $(PROJECT_NAME) ;
+export deferred PROJECT_DIR = /Users/eddy/dev/JDRLib ;
+export deferred PROJECT_FILE_PATH = /Users/eddy/dev/JDRLib/JDRLib.xcodeproj ;
+export deferred PROJECT_NAME = JDRLib ;
+export deferred PROJECT_TEMP_DIR = $(OBJROOT)/$(PROJECT_NAME).build ;
+export deferred SRCROOT = /Users/eddy/dev/JDRLib ;
+export deferred TARGET_TEMP_DIR = $(CONFIGURATION_TEMP_DIR)/$(TARGET_NAME).build ;
+export deferred TEMP_DIR = $(TARGET_TEMP_DIR) ;
+export deferred USER = eddy ;
+
+# Project-wide settings for project "JDRLib"
+export deferred ARCHS = ppc i386 ;
+export deferred SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk ;
+
+# User-defined project-wide settings for project "JDRLib"
+
+# Build Settings for target "JDRLib"
+
+# Implicitly computed build settings for target "JDRLib"
+export deferred CLONE_HEADERS = NO ;
+export deferred SKIP_INSTALL = YES ;
+export deferred TARGETNAME = $(TARGET_NAME) ;
+export deferred TARGET_NAME = JDRLib ;
+
+# User-defined build settings for target "JDRLib"
+export deferred COPY_PHASE_STRIP = NO ;
+export deferred GCC_DYNAMIC_NO_PIC = NO ;
+export deferred GCC_ENABLE_FIX_AND_CONTINUE = YES ;
+export deferred GCC_GENERATE_DEBUGGING_SYMBOLS = YES ;
+export deferred GCC_OPTIMIZATION_LEVEL = 0 ;
+export deferred JAVA_ARCHIVE_CLASSES = YES ;
+export deferred JAVA_ARCHIVE_COMPRESSION = NO ;
+export deferred JAVA_ARCHIVE_TYPE = JAR ;
+export deferred JAVA_COMPILER_DEPRECATED_WARNINGS = YES ;
+export deferred JAVA_COMPILER_SOURCE_VERSION = 1.5 ;
+export deferred JAVA_COMPILER_TARGET_VM_VERSION = 1.5 ;
+export deferred JAVA_MANIFEST_FILE = Manifest ;
+export deferred JAVA_SOURCE_SUBDIR = . ;
+export deferred PRODUCT_NAME = JDRLib ;
+export deferred PURE_JAVA = YES ;
+export deferred REZ_EXECUTABLE = YES ;
+export deferred ZERO_LINK = YES ;
+
+# Target "JDRLib"
+
+ConditionalDefinitions _ ;
+commitdeferred ;
+
+
+BeginTool "<JDRLib>JDRLib$(TOOL_SUFFIX)" ;
+
+# Sources
+JDRTreeNodeData.java_JAVA_IMPORTS = "" ;
+JDRTreeNode.java_JAVA_IMPORTS = "" ;
+JDRLib.java_JAVA_IMPORTS = "" ;
+JDRDevice.java_JAVA_IMPORTS = "" ;
+JDRBurn.java_JAVA_IMPORTS = "" ;
+JDRFileNodeData.java_JAVA_IMPORTS = "" ;
+JDRFolderNodeData.java_JAVA_IMPORTS = "" ;
+SOURCES =
+	JDRTreeNodeData.java
+	JDRTreeNode.java
+	JDRLib.java
+	JDRDevice.java
+	JDRBurn.java
+	JDRFileNodeData.java
+	JDRFolderNodeData.java ;
+ProcessSources "<JDRLib>JDRLib$(TOOL_SUFFIX)" : "$(SOURCES)" : "" : BPTag000 ;
+
+# Java Resource Files
+JAVA_RESOURCE_FILES = ;
+ProcessJavaResourceFiles "<JDRLib>JDRLib$(TOOL_SUFFIX)" : "$(JAVA_RESOURCE_FILES)" : BPTag000 : BPTag001 ;
+
+# Frameworks & Libraries
+FRAMEWORKS_AND_LIBRARIES = ;
+ProcessFrameworksAndLibraries "<JDRLib>JDRLib$(TOOL_SUFFIX)" : "$(FRAMEWORKS_AND_LIBRARIES)" : BPTag001 : BPTag002 ;
+
+# Copy Files
+COPY_FILES = ;
+COPYFILES_DESTINATION_PATH = "$(INSTALL_ROOT)/usr/share/man/man1" ;
+if $(DEPLOYMENT_POSTPROCESSING) = YES {
+	ProcessCopyFiles "<JDRLib>JDRLib$(TOOL_SUFFIX)" : "$(COPY_FILES)" : BPTag002 : BPTag003 ;
+}
+else {
+	NoOp "<JDRLib>JDRLib$(TOOL_SUFFIX)" : "$(COPY_FILES)" : BPTag002 : BPTag003 ;
+}
+
+include $(TEMP_DIR)/HeaderDependencies.jam ;
+EndTool "<JDRLib>JDRLib$(TOOL_SUFFIX)" ;
+

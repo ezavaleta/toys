@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130F8B92001BDF0A11CA292A /* JDRLib.java in Sources */ = {isa = PBXBuildFile; fileRef = 010341B7FEEF030011DB9C8B /* JDRLib.java */; };
+		642825EF0C24EF1F0021FA8F /* JDRDevice.c in Sources */ = {isa = PBXBuildFile; fileRef = 642825EE0C24EF1F0021FA8F /* JDRDevice.c */; };
+		642825F30C24EFAB0021FA8F /* JDRLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 642825F20C24EFAB0021FA8F /* JDRLib.h */; };
+		6428262A0C24F1520021FA8F /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642826290C24F1520021FA8F /* DiscRecording.framework */; };
+		644E346F0C27A1A5003D8479 /* JDRFileNodeData.java in Sources */ = {isa = PBXBuildFile; fileRef = 644E346E0C27A1A5003D8479 /* JDRFileNodeData.java */; };
+		644E34780C27A1B3003D8479 /* JDRTreeNode.java in Sources */ = {isa = PBXBuildFile; fileRef = 644E345F0C279616003D8479 /* JDRTreeNode.java */; };
+		644E34790C27A1B8003D8479 /* JDRTreeNodeData.java in Sources */ = {isa = PBXBuildFile; fileRef = 644E346C0C279759003D8479 /* JDRTreeNodeData.java */; };
+		644E347B0C27A9F8003D8479 /* JDRFolderNodeData.java in Sources */ = {isa = PBXBuildFile; fileRef = 644E347A0C27A9F8003D8479 /* JDRFolderNodeData.java */; };
+		644E35820C27E209003D8479 /* JDRBurn.c in Sources */ = {isa = PBXBuildFile; fileRef = 644E35810C27E209003D8479 /* JDRBurn.c */; };
+		644E35850C27E284003D8479 /* JDRDevice.java in Sources */ = {isa = PBXBuildFile; fileRef = 64D9B59E0C22B88900910CFF /* JDRDevice.java */; };
+		644E35860C27E284003D8479 /* JDRLib.java in Sources */ = {isa = PBXBuildFile; fileRef = 010341B7FEEF030011DB9C8B /* JDRLib.java */; };
+		644E35870C27E284003D8479 /* JDRBurn.java in Sources */ = {isa = PBXBuildFile; fileRef = 64D9B5CB0C22C38400910CFF /* JDRBurn.java */; };
+		644E35880C27E284003D8479 /* JDRTreeNode.java in Sources */ = {isa = PBXBuildFile; fileRef = 644E345F0C279616003D8479 /* JDRTreeNode.java */; };
+		644E35890C27E284003D8479 /* JDRTreeNodeData.java in Sources */ = {isa = PBXBuildFile; fileRef = 644E346C0C279759003D8479 /* JDRTreeNodeData.java */; };
+		644E358A0C27E284003D8479 /* JDRFileNodeData.java in Sources */ = {isa = PBXBuildFile; fileRef = 644E346E0C27A1A5003D8479 /* JDRFileNodeData.java */; };
+		644E358B0C27E284003D8479 /* JDRFolderNodeData.java in Sources */ = {isa = PBXBuildFile; fileRef = 644E347A0C27A9F8003D8479 /* JDRFolderNodeData.java */; };
+		64A971870C24FFEF00B8FE4F /* JavaVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A971860C24FFEF00B8FE4F /* JavaVM.framework */; };
+		64A971950C2500F700B8FE4F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A971940C2500F700B8FE4F /* CoreFoundation.framework */; };
+		64D9B59F0C22B88900910CFF /* JDRDevice.java in Sources */ = {isa = PBXBuildFile; fileRef = 64D9B59E0C22B88900910CFF /* JDRDevice.java */; };
+		64D9B5CC0C22C38400910CFF /* JDRBurn.java in Sources */ = {isa = PBXBuildFile; fileRef = 64D9B5CB0C22C38400910CFF /* JDRBurn.java */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64D9B5E90C22CACA00910CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E6828EFEC88D1A11DB9C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D9B5B20C22C2C100910CFF;
+			remoteInfo = JDRLibHeaders;
+		};
+		64D9B5EB0C22CAD900910CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E6828EFEC88D1A11DB9C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D9B5E70C22CAB700910CFF;
+			remoteInfo = JDRNativeLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A0644BC02C7C42C0CC91562 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		010341B7FEEF030011DB9C8B /* JDRLib.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JDRLib.java; sourceTree = "<group>"; };
+		642825EE0C24EF1F0021FA8F /* JDRDevice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JDRDevice.c; sourceTree = "<group>"; };
+		642825F20C24EFAB0021FA8F /* JDRLib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = JDRLib.h; path = build/Debug/JDRLib.h; sourceTree = "<group>"; };
+		642826290C24F1520021FA8F /* DiscRecording.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = /System/Library/Frameworks/DiscRecording.framework; sourceTree = "<absolute>"; };
+		644E345F0C279616003D8479 /* JDRTreeNode.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JDRTreeNode.java; sourceTree = "<group>"; };
+		644E346C0C279759003D8479 /* JDRTreeNodeData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JDRTreeNodeData.java; sourceTree = "<group>"; };
+		644E346E0C27A1A5003D8479 /* JDRFileNodeData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JDRFileNodeData.java; sourceTree = "<group>"; };
+		644E347A0C27A9F8003D8479 /* JDRFolderNodeData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JDRFolderNodeData.java; sourceTree = "<group>"; };
+		644E35810C27E209003D8479 /* JDRBurn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JDRBurn.c; sourceTree = "<group>"; };
+		64A971860C24FFEF00B8FE4F /* JavaVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaVM.framework; path = /System/Library/Frameworks/JavaVM.framework; sourceTree = "<absolute>"; };
+		64A971940C2500F700B8FE4F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		64D9B59E0C22B88900910CFF /* JDRDevice.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JDRDevice.java; sourceTree = "<group>"; };
+		64D9B5B30C22C2C100910CFF /* JDRLibHeaders.jar */ = {isa = PBXFileReference; explicitFileType = archive.jar; includeInIndex = 0; path = JDRLibHeaders.jar; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D9B5CB0C22C38400910CFF /* JDRBurn.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JDRBurn.java; sourceTree = "<group>"; };
+		64D9B5E80C22CAB700910CFF /* libJDRNativeLib.jnilib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libJDRNativeLib.jnilib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8008AE02C7B68F0CC91562 /* Manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest; sourceTree = "<group>"; };
+		6A9ED92C02B0286D0CC91562 /* JDRLib.jar */ = {isa = PBXFileReference; explicitFileType = archive.jar; includeInIndex = 0; path = JDRLib.jar; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130F8B94001BDF0A11CA292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D9B5B10C22C2C100910CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D9B5E60C22CAB700910CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A971950C2500F700B8FE4F /* CoreFoundation.framework in Frameworks */,
+				6428262A0C24F1520021FA8F /* DiscRecording.framework in Frameworks */,
+				64A971870C24FFEF00B8FE4F /* JavaVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E6828FFEC88D1A11DB9C8B = {
+			isa = PBXGroup;
+			children = (
+				644E33C70C277A57003D8479 /* JDRLib */,
+				644E33C80C277A9C003D8479 /* JDRNativeLib */,
+				64A971940C2500F700B8FE4F /* CoreFoundation.framework */,
+				64A971860C24FFEF00B8FE4F /* JavaVM.framework */,
+				642826290C24F1520021FA8F /* DiscRecording.framework */,
+				0120612AFEC8923411DB9C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0120612AFEC8923411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A9ED92C02B0286D0CC91562 /* JDRLib.jar */,
+				64D9B5B30C22C2C100910CFF /* JDRLibHeaders.jar */,
+				64D9B5E80C22CAB700910CFF /* libJDRNativeLib.jnilib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644E33C70C277A57003D8479 /* JDRLib */ = {
+			isa = PBXGroup;
+			children = (
+				6A8008AE02C7B68F0CC91562 /* Manifest */,
+				64D9B59E0C22B88900910CFF /* JDRDevice.java */,
+				010341B7FEEF030011DB9C8B /* JDRLib.java */,
+				64D9B5CB0C22C38400910CFF /* JDRBurn.java */,
+				644E345F0C279616003D8479 /* JDRTreeNode.java */,
+				644E346C0C279759003D8479 /* JDRTreeNodeData.java */,
+				644E346E0C27A1A5003D8479 /* JDRFileNodeData.java */,
+				644E347A0C27A9F8003D8479 /* JDRFolderNodeData.java */,
+			);
+			name = JDRLib;
+			sourceTree = "<group>";
+		};
+		644E33C80C277A9C003D8479 /* JDRNativeLib */ = {
+			isa = PBXGroup;
+			children = (
+				642825F20C24EFAB0021FA8F /* JDRLib.h */,
+				642825EE0C24EF1F0021FA8F /* JDRDevice.c */,
+				644E35810C27E209003D8479 /* JDRBurn.c */,
+			);
+			name = JDRNativeLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64D9B5E40C22CAB700910CFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642825F30C24EFAB0021FA8F /* JDRLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXJavaArchiveBuildPhase section */
+		130F8B93001BDF0A11CA292A /* JavaArchive */ = {
+			isa = PBXJavaArchiveBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D9B5B00C22C2C100910CFF /* JavaArchive */ = {
+			isa = PBXJavaArchiveBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXJavaArchiveBuildPhase section */
+
+/* Begin PBXLibraryTarget section */
+		64D9B5B20C22C2C100910CFF /* JDRLibHeaders */ = {
+			isa = PBXLibraryTarget;
+			buildConfigurationList = 64D9B5C10C22C2C800910CFF /* Build configuration list for PBXLibraryTarget "JDRLibHeaders" */;
+			buildPhases = (
+				64D9B5AF0C22C2C100910CFF /* Sources */,
+				64D9B5B00C22C2C100910CFF /* JavaArchive */,
+				64D9B5B10C22C2C100910CFF /* Frameworks */,
+				64D9B5C60C22C2F100910CFF /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = JDRLibHeaders;
+			productInstallPath = /usr/local/lib;
+			productName = JavaHeaders;
+			productReference = 64D9B5B30C22C2C100910CFF /* JDRLibHeaders.jar */;
+		};
+/* End PBXLibraryTarget section */
+
+/* Begin PBXNativeTarget section */
+		64D9B5E70C22CAB700910CFF /* JDRNativeLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D9B5ED0C22CAF700910CFF /* Build configuration list for PBXNativeTarget "JDRNativeLib" */;
+			buildPhases = (
+				64D9B5E40C22CAB700910CFF /* Headers */,
+				64D9B5E50C22CAB700910CFF /* Sources */,
+				64D9B5E60C22CAB700910CFF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64D9B5EA0C22CACA00910CFF /* PBXTargetDependency */,
+			);
+			name = JDRNativeLib;
+			productName = JDRNativeLib;
+			productReference = 64D9B5E80C22CAB700910CFF /* libJDRNativeLib.jnilib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00E6828EFEC88D1A11DB9C8B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0AE31F6908BBAC2E002AF232 /* Build configuration list for PBXProject "JDRLib" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B /* Products */;
+			projectDirPath = "";
+			targets = (
+				130F8B90001BDF0A11CA292A /* JDRLib */,
+				64D9B5B20C22C2C100910CFF /* JDRLibHeaders */,
+				64D9B5E70C22CAB700910CFF /* JDRNativeLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64D9B5C60C22C2F100910CFF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "javah -classpath \"${BUILT_PRODUCTS_DIR}/JDRLibHeaders.jar\" -force -o \"${BUILT_PRODUCTS_DIR}/JDRLib.h\" \"jdrlib.JDRLib\" \"jdrlib.JDRDevice\" \"jdrlib.JDRBurn\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130F8B91001BDF0A11CA292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E34790C27A1B8003D8479 /* JDRTreeNodeData.java in Sources */,
+				644E34780C27A1B3003D8479 /* JDRTreeNode.java in Sources */,
+				130F8B92001BDF0A11CA292A /* JDRLib.java in Sources */,
+				64D9B59F0C22B88900910CFF /* JDRDevice.java in Sources */,
+				64D9B5CC0C22C38400910CFF /* JDRBurn.java in Sources */,
+				644E346F0C27A1A5003D8479 /* JDRFileNodeData.java in Sources */,
+				644E347B0C27A9F8003D8479 /* JDRFolderNodeData.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D9B5AF0C22C2C100910CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E35850C27E284003D8479 /* JDRDevice.java in Sources */,
+				644E35860C27E284003D8479 /* JDRLib.java in Sources */,
+				644E35870C27E284003D8479 /* JDRBurn.java in Sources */,
+				644E35880C27E284003D8479 /* JDRTreeNode.java in Sources */,
+				644E35890C27E284003D8479 /* JDRTreeNodeData.java in Sources */,
+				644E358A0C27E284003D8479 /* JDRFileNodeData.java in Sources */,
+				644E358B0C27E284003D8479 /* JDRFolderNodeData.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D9B5E50C22CAB700910CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642825EF0C24EF1F0021FA8F /* JDRDevice.c in Sources */,
+				644E35820C27E209003D8479 /* JDRBurn.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64D9B5EA0C22CACA00910CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D9B5B20C22C2C100910CFF /* JDRLibHeaders */;
+			targetProxy = 64D9B5E90C22CACA00910CFF /* PBXContainerItemProxy */;
+		};
+		64D9B5EC0C22CAD900910CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D9B5E70C22CAB700910CFF /* JDRNativeLib */;
+			targetProxy = 64D9B5EB0C22CAD900910CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXToolTarget section */
+		130F8B90001BDF0A11CA292A /* JDRLib */ = {
+			isa = PBXToolTarget;
+			buildConfigurationList = 0AE31F6508BBAC2E002AF232 /* Build configuration list for PBXToolTarget "JDRLib" */;
+			buildPhases = (
+				130F8B91001BDF0A11CA292A /* Sources */,
+				130F8B93001BDF0A11CA292A /* JavaArchive */,
+				130F8B94001BDF0A11CA292A /* Frameworks */,
+				6A0644BC02C7C42C0CC91562 /* CopyFiles */,
+			);
+			dependencies = (
+				64D9B5EC0C22CAD900910CFF /* PBXTargetDependency */,
+			);
+			name = JDRLib;
+			productInstallPath = /usr/local/bin;
+			productName = JDRLib;
+			productReference = 6A9ED92C02B0286D0CC91562 /* JDRLib.jar */;
+		};
+/* End PBXToolTarget section */
+
+/* Begin XCBuildConfiguration section */
+		0AE31F6608BBAC2E002AF232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER_DEPRECATED_WARNINGS = YES;
+				JAVA_COMPILER_SOURCE_VERSION = 1.5;
+				JAVA_COMPILER_TARGET_VM_VERSION = 1.5;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = JDRLib;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		0AE31F6708BBAC2E002AF232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = JDRLib;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0AE31F6A08BBAC2E002AF232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		0AE31F6B08BBAC2E002AF232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		64D9B5C20C22C2C800910CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "";
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JDRLibHeaders;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		64D9B5C30C22C2C800910CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_STYLE = STATIC;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JavaHeaders;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		64D9B5EE0C22CAF700910CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = jnilib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/System/Library/Frameworks/JavaVM.framework/Headers";
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = JDRNativeLib;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		64D9B5EF0C22CAF700910CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				EXECUTABLE_EXTENSION = jnilib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/System/Library/Frameworks/JavaVM.framework/Headers";
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = JDRNativeLib;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE31F6508BBAC2E002AF232 /* Build configuration list for PBXToolTarget "JDRLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE31F6608BBAC2E002AF232 /* Debug */,
+				0AE31F6708BBAC2E002AF232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE31F6908BBAC2E002AF232 /* Build configuration list for PBXProject "JDRLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE31F6A08BBAC2E002AF232 /* Debug */,
+				0AE31F6B08BBAC2E002AF232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D9B5C10C22C2C800910CFF /* Build configuration list for PBXLibraryTarget "JDRLibHeaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D9B5C20C22C2C800910CFF /* Debug */,
+				64D9B5C30C22C2C800910CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D9B5ED0C22CAF700910CFF /* Build configuration list for PBXNativeTarget "JDRNativeLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D9B5EE0C22CAF700910CFF /* Debug */,
+				64D9B5EF0C22CAF700910CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B /* Project object */;
+}

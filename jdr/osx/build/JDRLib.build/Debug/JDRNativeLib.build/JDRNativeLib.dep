@@ -1,0 +1,7 @@
+567a3b542b0919c285cd42a43eabaf1d 100e5946e92712e4c00345146645ac6f ffffffffffffffffffffffffffffffff 147300 /Users/eddy/dev/JDRLib/build/Debug/libJDRNativeLib.jnilib
+2fd2a849d24c57def31184ac0e038fa8 1600c13bbe721d9e3701dda6870dc376 ffffffffffffffffffffffffffffffff 69476 /Users/eddy/dev/JDRLib/build/JDRLib.build/Debug/JDRNativeLib.build/Objects-normal/i386/libJDRNativeLib.jnilib
+0b231388dc97c45c11a1c891c7078a79 648b41ae9ba097de507cd33f70a269ba ffffffffffffffffffffffffffffffff 69968 /Users/eddy/dev/JDRLib/build/JDRLib.build/Debug/JDRNativeLib.build/Objects-normal/ppc/libJDRNativeLib.jnilib
+0000000000b785a70000000000012e4c e330711fca2ca1f453c7f0b7158fb404 ffffffffffffffffffffffffffffffff 29080 /Users/eddy/dev/JDRLib/build/JDRLib.build/Debug/JDRNativeLib.build/Objects-normal/i386/JDRBurn.o
+0000000000b785a70000000000012e4c 891d825a322c3e93c1aaa86946be14cd ffffffffffffffffffffffffffffffff 30488 /Users/eddy/dev/JDRLib/build/JDRLib.build/Debug/JDRNativeLib.build/Objects-normal/ppc/JDRBurn.o
+0000000000b7850f000000000001314d cce2d9561b761140a0d6741b1bae5c11 ffffffffffffffffffffffffffffffff 30456 /Users/eddy/dev/JDRLib/build/JDRLib.build/Debug/JDRNativeLib.build/Objects-normal/i386/JDRDevice.o
+0000000000b7850f000000000001314d 823e91d2edad1da5d00b60f8819bf90f ffffffffffffffffffffffffffffffff 32396 /Users/eddy/dev/JDRLib/build/JDRLib.build/Debug/JDRNativeLib.build/Objects-normal/ppc/JDRDevice.o

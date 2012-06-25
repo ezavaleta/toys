@@ -1,0 +1,14 @@
+/Users/eddy/DRJWrap/main.c: In function 'main':
+/Users/eddy/DRJWrap/main.c:42: error: 'speed' undeclared (first use in this function)
+/Users/eddy/DRJWrap/main.c:42: error: (Each undeclared identifier is reported only once
+/Users/eddy/DRJWrap/main.c:42: error: for each function it appears in.)
+/Users/eddy/DRJWrap/main.c:45: error: parse error before 'CFBoolean'
+/Users/eddy/DRJWrap/main.c:58: error: parse error before ',' token
+/Users/eddy/DRJWrap/main.c:59: error: parse error before ',' token
+/Users/eddy/DRJWrap/main.c:60: error: parse error before ',' token
+/Users/eddy/DRJWrap/main.c:61: error: parse error before ',' token
+/Users/eddy/DRJWrap/main.c:62: error: parse error before ',' token
+/Users/eddy/DRJWrap/main.c:63: error: parse error before ',' token
+/Users/eddy/DRJWrap/main.c:64: error: parse error before ',' token
+/Users/eddy/DRJWrap/main.c:65: error: parse error before ',' token
+/Users/eddy/DRJWrap/main.c:71: error: 'properties' undeclared (first use in this function)
