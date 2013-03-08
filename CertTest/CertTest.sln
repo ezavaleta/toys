@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CertTest", "CertTest\CertTest.csproj", "{02EB2A3C-AA06-4506-ADB6-02013B29873B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02EB2A3C-AA06-4506-ADB6-02013B29873B}.Debug|x86.ActiveCfg = Debug|x86
+		{02EB2A3C-AA06-4506-ADB6-02013B29873B}.Debug|x86.Build.0 = Debug|x86
+		{02EB2A3C-AA06-4506-ADB6-02013B29873B}.Release|x86.ActiveCfg = Release|x86
+		{02EB2A3C-AA06-4506-ADB6-02013B29873B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CertTest\CertTest.csproj
+	EndGlobalSection
+EndGlobal
