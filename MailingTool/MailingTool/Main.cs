@@ -16,6 +16,19 @@ namespace MailingTool
 
 		public static void Main (string[] args)
 		{
+			ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+			SendEmail (args [0],
+				args [1],
+                "Past Date Test",
+                "Testing...",
+                "<html><body><i>Testing...</i></body></html>");
+
+			//DoIt (args);
+		}
+		
+		public static void DoIt (string[] args)
+		{
 			if (args.Length != 4) {
 				Console.WriteLine ("Usage: SendMail <sender> <subject> <txt file> <html file>");
 				return;
@@ -35,7 +48,7 @@ namespace MailingTool
 			var subject = args [1];
 			var text_body = File.ReadAllText (args [2]);
 			var html_body = File.ReadAllText (args [3]);
-
+			
 			using (var db_update = new MySqlConnection (conn_string)) {
 				db_update.Open ();
 				using(var update_cmd = db_update.CreateCommand ()) {
@@ -50,11 +63,11 @@ namespace MailingTool
 								while (reader.Read()) {
 									bool ret = false;
 									string addr_to = reader.GetString ("email");
-
+									
 									ret = SendEmail (addr_from, addr_to, subject, text_body.Replace ("[[email]]", addr_to), html_body.Replace ("[[email]]", addr_to));
 									Console.WriteLine ("{0}: {1}", addr_to, ret ? "Ok" : "Fail");
 									if (!ret) continue;
-
+									
 									update_cmd.Parameters ["@id"].Value = reader.GetInt32 ("id");
 									update_cmd.ExecuteNonQuery ();
 								}
@@ -63,14 +76,23 @@ namespace MailingTool
 					}
 				}
 			}
-		
+
 			Console.WriteLine ("Finish!");
 		}
-		
+
 		public static bool SendEmail(string addrFrom, string addrTo, string subject, string textBody, string htmlBody)
 		{
 			var smtp = new SmtpClient("localhost");
-			
+			/*var smtp = new SmtpClient
+			{
+				Host = "smtp.gmail.com",
+				Port = 587,
+				EnableSsl = true,
+				DeliveryMethod = SmtpDeliveryMethod.Network,
+				UseDefaultCredentials = false,
+				Credentials = new NetworkCredential(addrFrom, "mtx$l0cK")
+			};*/
+
 			var addr_from = new MailAddress(addrFrom);
 			var addr_to = new MailAddress(addrTo);
 			

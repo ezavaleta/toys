@@ -1,10 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DbMigration/Program.cs">
+    <Files>
+      <File FileName="DbMigration/Program.cs" Line="80" Column="27" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="NbTest" expanded="True" selected="True" />
+          <Node name="DbMigration" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

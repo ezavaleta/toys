@@ -11,7 +11,7 @@ namespace CertTest
 			string sn = string.Empty;
 			X509Certificate2 cert = new X509Certificate2();
 
-			cert.Import("/Users/eddy/Google Drive/private/sat/certificates/ZARE860422FD7-seal.cer");
+			cert.Import("CSD01_AAA010101AAA.cer");
 
 			foreach (var b in cert.GetSerialNumber()) {
 				sn = (char)b + sn;
